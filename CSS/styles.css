@@ -1,0 +1,87 @@
+/*******************TAG SELECTORDS*******************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/*******************CLASS SELECTORDS*******************/
+.Top-container {
+  background-color: #191A19;
+  position: relative;
+  padding-top: 265px;
+  font-size: 0;
+}
+
+.Top-cloud {
+  position: absolute;
+  right: 26%;
+  top: 7%;
+}
+
+.Pro {
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 25px;
+}
+
+.Bottom-cloud {
+  position: absolute;
+  left: 24%;
+  top: 35%;
+}
+
+.Mountain {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.H2 {
+  background-color: #222831;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.Middle-container{
+  
+}
+
+.Proflie-Picture{
+  position: absolute;
+}
+
+.Bottom-container {
+  background-color: #222831;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.H2:hover {
+  background-color: #FFFFFF;
+  color: Black;
+}
+
+.Footer-link {
+  border-radius: 12px;
+}
+
+.Footer-link:hover{
+  transform : scale(1.2) ;
+}
+/*******************ID SELECTORDS*******************/
+#text{
+  position: absolute;
+  color: #FFFFFF;
+  top: 10%;
+  left: 42%;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+

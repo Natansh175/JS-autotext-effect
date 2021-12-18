@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Shah Natansh </title>
+  <link rel="stylesheet"  type="text/css" href="CSS/styles.css">
+  <link rel="icon" href="favicon2.gif" type="image/gif" />
+  <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Roboto+Condensed:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+</div>
+<body>
+  
+  <div class="Top-container" style="background-image: url(Images/BG.jpg);">
+    <h1 id="text"></h1>
+    <p class="Pro" style="color: #fff;" id="Pro"></p>
+  </div>
+
+  <div class="Bottom-container">
+    <h2 class="H2"><strong>Get In Touch</strong></h2>
+    <div class="Contact-Me">
+      <a href="mailto:natansh175@gmail.com"><img class="Footer-link" src="Images/G-Mail.png" alt="G-Mail Icon" hspace="20"></a>
+      <a href="https://www.linkedin.com/in/natansh-shah-281524204/"><img class="Footer-link" src="Images/LinkedIn.png" alt="LinkedIn Icon" hspace="20"></a>
+      <a href="https://www.instagram.com/natansh_1753/"><img class="Footer-link" src="Images/Instagram.png" alt="Instagram Icon" hspace="20"></a>
+      <a href="https://github.com/Natansh175"><img class="Footer-link" src="Images/Github.png" alt="Github Icon" hspace="20"></a>
+      <p style="color:white;">© 2021 Natansh Shah.</p>
+    </div>
+  </div>
+ <script type="text/javascript">
+var i=0,text,k=0,j=0,Pro;
+text = "I'm Natansh"
+Pro = "A newbie Web-developer and Programmer."
+
+function typing()
+{
+  if (i<text.length)
+  {
+    document.getElementById("text").innerHTML += text.charAt(i);
+    i++;
+    k=i;
+    k++;
+    setTimeout(typing,175);
+  }
+    if(text.length<k)
+    {
+      document.getElementById("Pro").innerHTML += Pro.charAt(j);
+      j++;
+      setTimeout(typing,50);
+    } 
+}
+typing();
+  </script>
+
+</body>
+</html>
